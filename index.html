@@ -71,10 +71,10 @@
           const messageDiv = document.getElementById("message");
 
           if (username === "test" && password === "password123") {
-            messageDiv.textContent = "เข้าสู่ระบบสำเร็จ!";
+            messageDiv.textContent = "login success";
             messageDiv.className = "success";
           } else {
-            messageDiv.textContent = "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง";
+            messageDiv.textContent = "login failed";
             messageDiv.className = "error";
           }
           messageDiv.style.display = "block";
